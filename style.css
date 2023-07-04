@@ -1,0 +1,58 @@
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.navbar-brand, .slogan, .titulo-h3{
+    font-family: 'Fjalla One', sans-serif;
+}
+.navbar-brand{
+    font-size: 40px;
+}
+
+.jumbotron {
+    background: url("./img/slider-images1.jpg") no-repeat center ;
+    height: 400px;
+    position: inherit;
+}
+
+.slogan {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    padding: 10%;
+    font-size: 40px;
+    
+}
+
+.titulo-h3 {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+img:hover{
+    opacity: .5;
+}
+.caption {
+    background: #333;
+    width:300px;
+    position:relative;
+    top:-100px;
+}
+.caption:hover {
+}
+
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
