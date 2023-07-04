@@ -48,6 +48,7 @@ img:hover{
     top:-100px;
 }
 .caption:hover {
+    opacity: .5;
 }
 
 
