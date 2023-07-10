@@ -51,7 +51,17 @@ img:hover{
     opacity: .8;
 }
 
+.contact {
+    padding-top: 40px;
+}
 
+.contact-content{
+    padding: 20px;
+}
+
+.bg-green{
+    background-color: rgba(14, 14, 42, 0.507);
+}
 /* Add a gray background color and some padding to the footer */
 footer {
   background-color: #f2f2f2;
