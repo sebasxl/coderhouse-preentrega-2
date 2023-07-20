@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Portal Inmobiliario</a>
@@ -23,12 +24,23 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-              <a class="nav-link" href="#">Destacadas</a>
-              <a class="nav-link" href="#">Nosotros</a>
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </div>
+            <ul class="navbar-nav">
+              <li>
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li>
+                <a class="nav-link" href="destacadas.html">Destacadas</a>
+              </li>
+              <li>
+                <a class="nav-link" href="simple.html">Página Simple</a>
+              </li>
+              <li>
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li>
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -39,11 +51,29 @@
     Compra y vende más rapido
   </p>
 </div>
-  <div class="container">
 
+<main>
+  <div class="container text-center">
+    
+    <div class="card mb-3 main-card">
+      <div class="row g-0">
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="titulo-h1">Encontrá el inmueble que buscas en Portal Inmobiliario</h1>
+            <p class="card-text">Nos enfocamos en hacer llegar a todo el mundo los proyectos inmobiliarios más importantes del mercado</p>
+            <p class="card-text"><a href="simple.html" class="internal-link">Hacé click para saber más</a></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="./img/ab09f4592bfb46fb028e.webp" class="img-fluid">
+        </div>
+
+      </div>
+    </div>
   </div>
+  
 <div class="container text-center">    
-  <h3 class="titulo-h3">Proyectos Importantes</h3><br>
+  <h2 class="titulo-h2">Proyectos Importantes</h2><br>
   <div class="row">
     <div class="col-sm-4">
         <a href="#">
@@ -64,10 +94,10 @@
         </a>
     </div>
   </div>
-</div><br>
+</div>
 
 <div class="container bg-3 text-center"> 
-<h3 class="titulo-h3">Propiedades en CABA</h3><br>   
+<h2 class="titulo-h2">Propiedades en CABA</h2><br>   
   <div class="row">
     <div class="col-sm-3">
       <p>Cochabamba 336. CABA</p>
@@ -86,7 +116,9 @@
       <img src="./img/1872346305.jpg" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </div>
-</div><br><br>
+</div>  
+</main>
+
 
 <footer class="container-fluid text-center">
     <a class="navbar-brand" href="#">Portal Inmobiliario</a>
