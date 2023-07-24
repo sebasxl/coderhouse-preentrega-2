@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.navbar-brand, .slogan, h1, .titulo-h2{
+    font-family: 'Fjalla One', sans-serif;
+}
+.navbar-brand{
+    font-size: 40px;
+}
+
+.jumbotron {
+    background: url("./img/slider-images1.jpg") no-repeat center ;
+    height: 400px;
+    position: inherit;
+}
+
+.slogan {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    padding: 10%;
+    font-size: 40px;
+    
+}
+
+.main-card{
+    margin-top: 70px;
+    vertical-align: middle;
+}
+.card-body{
+    line-height: 3;
+    
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.titulo-h1, .titulo-h2 {
+    margin-top: 70px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.internal-link {
+    text-decoration: none;
+    color: #040d80;
+    font-size: 18px;
+}
+
+img:hover{
+    opacity: .5;
+}
+.caption {
+    background: #333;
+    width:300px;
+    position:relative;
+    top:-100px;
+}
+.caption:hover {
+    opacity: .8;
+}
+
+.contact {
+    padding-top: 40px;
+}
+
+.content{
+    margin-top: 50px;
+}
+.contact-content{
+    padding: 20px;
+}
+
+ul .destacada {
+    list-style: none;
+}
+
+.bg-green{
+    background-color: rgba(14, 14, 42, 0.507);
+}
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+  margin-top: 70px;
+}
+
+@media (max-width: 800px) {
+    footer {
+        background-color: #424242;
+        color: white;
+        padding: 10px;
+        margin-top: 110px;
+        margin-bottom: 100px;
+      }
+  }

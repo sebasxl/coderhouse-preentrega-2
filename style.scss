@@ -1,0 +1,110 @@
+$color_1: white;
+$color_2: #040d80;
+$font-family_1: 'Fjalla One', sans-serif;
+$background-color_1: rgba(14, 14, 42, 0.507);
+$background-color_2: #f2f2f2;
+$background-color_3: #424242;
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+/* Add a gray background color and some padding to the footer */
+* {
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+.navbar-brand {
+	font-family: $font-family_1;
+	font-size: 40px;
+}
+.slogan {
+	font-family: $font-family_1;
+	margin: 0;
+	position: absolute;
+	top: 20%;
+	padding: 10%;
+	font-size: 40px;
+}
+h1 {
+	font-family: $font-family_1;
+	font-size: 50px;
+}
+.titulo-h2 {
+	font-family: $font-family_1;
+	margin-top: 70px;
+}
+.jumbotron {
+	background: url("./img/slider-images1.jpg") no-repeat center;
+	height: 400px;
+	position: inherit;
+}
+.main-card {
+	margin-top: 70px;
+	vertical-align: middle;
+}
+.card-body {
+	line-height: 3;
+}
+h2 {
+	font-size: 40px;
+}
+.titulo-h1 {
+	margin-top: 70px;
+}
+a {
+	text-decoration: none;
+	color: $color_1;
+	font-size: 18px;
+}
+.internal-link {
+	text-decoration: none;
+	color: $color_2;
+	font-size: 18px;
+}
+img {
+	&:hover {
+		opacity: .5;
+	}
+}
+.caption {
+	background: #333;
+	width: 300px;
+	position: relative;
+	top: -100px;
+	&:hover {
+		opacity: .8;
+	}
+}
+.contact {
+	padding-top: 40px;
+}
+.content {
+	margin-top: 50px;
+}
+.contact-content {
+	padding: 20px;
+}
+ul {
+	.destacada {
+		list-style: none;
+	}
+}
+.bg-green {
+	background-color: $background-color_1;
+}
+footer {
+	background-color: $background-color_2;
+	padding: 25px;
+	margin-top: 70px;
+}
+@media (max-width: 800px) {
+	footer {
+		background-color: $background-color_3;
+		color: $color_1;
+		padding: 10px;
+		margin-top: 110px;
+		margin-bottom: 100px;
+	}
+}
